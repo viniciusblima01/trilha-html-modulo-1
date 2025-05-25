@@ -1,62 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
+
 <body>
     <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h2> <strong>Uma breve explanação sobre o Módulo 1 e as tags básicas usadas em HTML. </strong></h2>
     <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2 id="indice"></h2>Índice</h2>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i> e <i>Servers</i>?</a></li>
+       
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#h1-h6">&lt;h1&gt; até &lt;h6&gt;</a></li>
+        <li><a href="#p">&lt;p&gt;</a></li>
+        <li><a href="#mark">&lt;mark&gt;</a></li>
+        <li><a href="#small">&lt;small&gt;</a></li>
+        <li><a href="#i">&lt;i&gt;</a></li>
+        <li><a href="#u">&lt;u&gt;</a></li>
+        <li><a href="#strong">&lt;strong&gt;</a></li>
+        <li><a href="#ol-ul-li">&lt;ol&gt;, &lt;ul&gt;, &lt;li&gt;</a></li>
+        <li><a href="#a">&lt;a&gt;</a></li>
+        <li><a href="#hr">&lt;hr&gt;</a></li>
+        <li><a href="#sub">&lt;sub&gt;</a></li>
+        <li><a href="#sup">&lt;sup&gt;</a></li>
+        <li><a href="#blockquote">&lt;blockquote&gt;</a></li>
+        <li><a href="#font">&lt;font&gt;</a></li>
+        <li><a href="#del">&lt;del&gt;</a></li>
+        <li><a href="#abbr">&lt;abbr&gt;</a></li>
+        <li><a href="#fontes">Fontes</a></li>
+        
+    </ul>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia">História dos computadores</h2>
+    <p>Os primeiros computadores surgiram durante a Segunda Guerra Mundial para fazer cálculos militares.
+        Eram enormes, ocupavam salas inteiras e funcionavam com válvulas, como o famoso <strong>ENIAC</strong>
+        (Electronic
+        Numerical Integrator And Computer, que em português quer dizer <i>Computador e Integrador Numérico
+            Eletrônico</i>)
+        , criado em 1946.</p>
+    <img src="https://files.tecnoblog.net/wp-content/uploads/2011/02/785px-Eniac.jpg" width="50%" height="50%">
+    <p> O <strong>ENIAC</strong>, primeiro computador eletrônico digital de grande porte, foi apresentado em 14 de
+        fevereiro de 1946 pelos
+        engenheiros <strong>John Eckert</strong> e <strong>John Mauchly</strong>, nos Estados Unidos.
+        Criado para o exército durante a Segunda Guerra, ele pesava <strong>30 toneladas</strong>,
+        ocupava <strong>180 m²</strong>, e consumia muita energia. Seu funcionamento dependia de 18 mil
+        válvulas e cartões perfurados operados por mulheres, consideradas as primeiras programadoras.</p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    </p> Com o tempo, as válvulas foram substituídas por transistores, que deixaram os computadores menores,
+    mais rápidos e confiáveis. Depois vieram os circuitos integrados e, mais tarde, os microprocessadores,
+    que permitiram a criação dos computadores pessoais.<p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p>Hoje, os computadores estão por toda parte: no celular, no carro, na TV e até em eletrodomésticos,
+        muito mais potentes do que os primeiros gigantes da história.</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p>Apesar de ter desempenho inferior a qualquer calculadora atual, o ENIAC foi revolucionário,
+        realizando mais cálculos em 10 anos do que toda a humanidade até então. Após sua desativação,
+        suas peças foram espalhadas por museus. A computação pessoal só surgiria décadas depois.</p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+<p><a href="#indice">Voltar ao Índice</a></p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="clients">O que são <i>Clients</i> e <i>Servers</i>?</h2>
+
+    </p>
+    <p>O funcionamento da internet é baseado na comunicação entre clientes e servidores. O <strong>cliente</strong>
+        (<i>client</i>) é quem faz os pedidos, como quando usamos um navegador para acessar um site. Já o
+        <strong>servidor</strong> <i>(server)</i> é um computador que armazena os dados e responde a esses pedidos,
+        enviando
+        arquivos como textos, imagens e vídeos. Dessa forma,
+        sempre que acessamos uma página, o cliente solicita as informações e o servidor entrega, permitindo que o
+        conteúdo
+        apareça na tela.
+    </p>
+
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Cliente-Servidor.png">
+    <p> Cliente → <strong>Pede:</strong> "Quero abrir o site X."<br>
+        Servidor → <strong>Responde:</strong> "Aqui estão os arquivos do site
+        X."<br>
+        Cliente → <strong>Mostra na tela.</strong></p>
+
+    </p>
+<p><a href="#indice">Voltar ao Índice</a></p>
+
+    <h2 id="estrutura">O que é HTML e como é uma estrutura básica de uma página em HTML?</h2>
+    <h3> Primeiramente, o que é HTML?</h3>
+    <p>
+        <img height="150px"  src="https://www.w3docs.com/uploads/media/book_gallery/0001/02/ea50fd5ac033ccb1ab19a9aa4f1135464bbc1399.png" 
+            ><br>
+        HTML é uma abreviação para <strong> HyperText Markup Language</strong>, é a linguagem usada para criar e
+        estruturar páginas da internet,
+        mas <u>não é considerada uma linguagem de programação</u>.
+        Ela serve para organizar e estruturar os conteúdos, como textos, imagens, links, listas, tabelas, vídeos, etc.
+    </p>
+    </h3>
+    <h3>Mas qual é a diferença?</h3>
+
+    <strong>HTML</strong>: É uma linguagem de <strong>marcação</strong> usada para montar a estrutura de sites.
+    <br>
+    <strong>Linguagens</strong> de programação: São linguagens como <i>JavaScript</i>, que permitem adicionar
+    interatividade e tornar as páginas mais dinâmicas.
+    <p>
+
+        O HTML (<i>HyperText Markup Language</i>) utiliza tags para organizar o conteúdo da página, como textos,
+        títulos,
+        listas, links e imagens.
+        <br>
+        Ele funciona como o esqueleto do site, definindo onde cada item vai aparecer.
+        Por outro lado, linguagens de programação como JavaScript permitem criar interações com o usuário, modificar
+        elementos da página e adicionar
+        comportamentos, como botões que mudam de cor, pop-ups, ou animações.
+        <br>
+
+        Trabalhando juntos, o HTML (estrutura), o CSS (responsável pela aparência e design) e o JavaScript
+        (funcionalidade e interatividade)
+        formam páginas modernas, dinâmicas e atrativas.
+        Vale destacar que, apesar de o HTML ser essencial para criar páginas básicas, ele não executa cálculos, nem toma
+        decisões, como fazem as
+        linguagens de programação. Sua função é exclusivamente estruturar o conteúdo.
+
+
+    </p>
+    <h3> Qual estrutura básica de uma página em html?:</h3>
+
+    <p> A estrutura básica de um arquivo HTML é como um modelo inicial que todo site precisa ter para funcionar
+        corretamente no navegador.
+        Abaixo podemos ver um exemplo, onde as <i>Tags</i> foram marcadas de azul:</p>
+
+    <p>
+        &lt;<span style="color:blue">!DOCTYPE html</span>&gt;<br>
+        &lt;<span style="color:blue">html lang="en"</span>&gt;<br>
+        &nbsp;&nbsp;&lt;<span style="color:blue">head</span>&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:blue">title</span>&gt;Document&lt;/<span
+            style="color:blue">title</span>&gt;<br>
+        &nbsp;&nbsp;&lt;/<span style="color:blue">head</span>&gt;<br>
+        &nbsp;&nbsp;&lt;<span style="color:blue">body</span>&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:blue">h1</span>&gt;Ola Tudo Bem??&lt;/<span
+            style="color:blue">h1</span>&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:blue">p</span>&gt;Aqui fica tudo que sera mostrado na pagina web
+        &lt;/<span style="color:blue">p</span>&gt;<br>
+        &nbsp;&nbsp;&lt;/<span style="color:blue">body</span>&gt;<br>
+        &lt;/<span style="color:blue">html</span>&gt;
+    </p>
+
+
+    <h2>O que são tags?</h2>
+    <p> <i><strong>Tags</strong></i> são comandos do HTML que marcam e organizam o conteúdo da página. Elas definem o
+        que é texto, título,
+        imagem, parágrafo, etc. Abixo alguns exemplos de Tags comumente usadas.</h2>
+
+<p><a href="#indice">Voltar ao Índice</a></p>
+        <hr>
+
+    <h2 id="h1-h6">Tag &lt;h1&gt; até &lt;h6&gt;</h2>
+    <p>Definem títulos, sendo &lt;h1&gt; o mais importante e &lt;h6&gt; o menos.</p>
+    <p>Exemplo:<br>
+        &lt;h1&gt;Título 1&lt;/h1&gt;<br>
+        &lt;h2&gt;Título 2&lt;/h2&gt;<br>
+        &lt;h3&gt;Título 3&lt;/h3&gt;<br>
+        &lt;h4&gt;Título 4&lt;/h4&gt;<br>
+        &lt;h5&gt;Título 5&lt;/h5&gt;<br>
+        &lt;h6&gt;Título 6&lt;/h6&gt;
+    </p>
+    <p>Resultado:</p>
+    <h1>Título 1</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="p">Tag &lt;p&gt;</h2>
+    <p>Cria parágrafos de texto.</p>
+    <p>Exemplo:<br>
+        &lt;p&gt;Este é um parágrafo.&lt;/p&gt;
+    </p>
+    <p>Resultado:</p>
+    <p>Este é um parágrafo.</p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="mark">Tag &lt;mark&gt;</h2>
+    <p>Destaca um texto como se fosse um marca-texto.</p>
+    <p>Exemplo:<br>
+        &lt;mark&gt;Texto destacado&lt;/mark&gt;
+    </p>
+    <p>Resultado: <mark>Texto destacado</mark></p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="small">Tag &lt;small&gt;</h2>
+    <p>Deixa o texto menor.</p>
+    <p>Exemplo:<br>
+        &lt;small&gt;Texto pequeno&lt;/small&gt;
+    </p>
+    <p>Resultado: <small>Texto pequeno</small></p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="i">Tag &lt;i&gt;</h2>
+    <p>Deixa o texto em itálico.</p>
+    <p>Exemplo:<br>
+        &lt;i&gt;Texto em itálico&lt;/i&gt;
+    </p>
+    <p>Resultado: <i>Texto em itálico</i></p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="u">Tag &lt;u&gt;</h2>
+    <p>Sublinha o texto.</p>
+    <p>Exemplo:<br>
+        &lt;u&gt;Texto sublinhado&lt;/u&gt;
+    </p>
+    <p>Resultado: <u>Texto sublinhado</u></p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="strong">Tag &lt;strong&gt;</h2>
+    <p>Deixa o texto em negrito, indicando importância.</p>
+    <p>Exemplo:<br>
+        &lt;strong&gt;Texto em negrito&lt;/strong&gt;
+    </p>
+    <p>Resultado: <strong>Texto em negrito</strong></p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="ol-ul-li">Tags &lt;ol&gt;, &lt;ul&gt; e &lt;li&gt;</h2>
+    <p>
+        &lt;ol&gt; cria listas ordenadas (numeradas).<br>
+        &lt;ul&gt; cria listas não ordenadas (com marcadores).<br>
+        &lt;li&gt; define cada item da lista.
+    </p>
+    <p>Exemplo lista ordenada:<br>
+        &lt;ol&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+        &lt;/ol&gt;
+    </p>
+    <p>Resultado:</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ol>
+
+    <p>Exemplo lista não ordenada:<br>
+        &lt;ul&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Item A&lt;/li&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Item B&lt;/li&gt;<br>
+        &lt;/ul&gt;
+    </p>
+    <p>Resultado:</p>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li>Item A</li>
+        <li>Item B</li>
     </ul>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="a">Tag &lt;a&gt;</h2>
+    <p>Cria um link clicável.</p>
+    <p>Exemplo:<br>
+        &lt;a href="https://www.dio.me/"&gt;dio.&lt;/a&gt;
+    </p>
+    <p>Resultado: <a href="https://www.dio.me/" target="_blank">dio.</a></p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="hr">Tag &lt;hr&gt;</h2>
+    <p>Cria uma linha horizontal que separa conteúdos.</p>
+    <p>Exemplo:<br>
+        &lt;hr&gt;
+    </p>
+    <p>Resultado:</p>
+    <hr>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="sub">Tag &lt;sub&gt;</h2>
+    <p>Texto em subscrito (abaixo), usado em fórmulas.</p>
+    <p>Exemplo:<br>
+        H&lt;sub&gt;2&lt;/sub&gt;O
+    </p>
+    <p>Resultado: H<sub>2</sub>O</p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="sup">Tag &lt;sup&gt;</h2>
+    <p>Texto em sobrescrito (acima), usado em potências.</p>
+    <p>Exemplo:<br>
+        10&lt;sup&gt;2&lt;/sup&gt;
+    </p>
+    <p>Resultado: 10<sup>2</sup></p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="blockquote">Tag &lt;blockquote&gt;</h2>
+    <p>Destaca uma citação ou texto longo.</p>
+    <p>Exemplo:<br>
+        &lt;blockquote&gt;Este é um texto citado.&lt;/blockquote&gt;
+    </p>
+    <p>Resultado:</p>
+    <blockquote>Este é um texto citado.</blockquote>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="font">Tag &lt;font&gt; (Obsoleta)</h2>
+    <p>Usada antigamente para mudar cor, tamanho e tipo da fonte, mas hoje é substituída pelo CSS.</p>
+    <p>Exemplo:<br>
+        &lt;font color="red"&gt;Texto vermelho&lt;/font&gt;
+    </p>
+    <p>Resultado: <font color="red">Texto vermelho</font>
+    </p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="del">Tag &lt;del&gt;</h2>
+    <p>Mostra um texto como removido, riscado.</p>
+    <p>Exemplo:<br>
+        &lt;del&gt;Texto removido&lt;/del&gt;
+    </p>
+    <p>Resultado: <del>Texto removido</del></p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    <h2 id="abbr">Tag &lt;abbr&gt;</h2>
+    <p>Mostra uma abreviação com uma explicação ao passar o mouse.</p>
+    <p>Exemplo:<br>
+        &lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;
+    </p>
+    <p>Resultado: <abbr title="HyperText Markup Language">HTML</abbr></p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <hr>
+
+    
+
+    <h2 id="fontes">Links de referências</h2>
+   
+    <ul>
+  <li><a href="http://dio.me" target="_blank">DIO - Digital Innovation One</a></li>
+  <li><a href="http://w3c.org" target="_blank">W3C - World Wide Web Consortium</a></li>
+  <li><a href="https://tecnoblog.net/especiais/eniac-primeiro-computador-do-mundo-completa-65-anos/" target="_blank">
+    História do ENIAC - Tecnoblog
+  </a></li>
+  <li><a href="https://prosimples.com/entendendo-os-principios-basicos-de-html/" target="_blank">
+    Princípios Básicos de HTML - Pro Simples
+  </a></li>
+  <li><a href="https://www.ibm.com/docs/pt-br/cics-ts/6.x?topic=interfaces-clientserver-model" target="_blank">
+    Modelo Cliente-Servidor - IBM Docs
+  </a></li>
+  <li><a href="https://www.dio.me/articles/html-funcoes-basicas" target="_blank">
+    Funções Básicas do HTML - Artigo DIO
+  </a></li>
+</ul>
 
 </body>
+
 </html>
